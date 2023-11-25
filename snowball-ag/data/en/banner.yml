@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+ # bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/snowboard_main.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "Snowball Artistic Growth"
+  content : "Do more, better."
+  button:
+    enable : true
+    label : "Explore Us"
+    link : "#services"
