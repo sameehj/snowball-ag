@@ -1,0 +1,25 @@
+############################### team ############################
+team:
+  enable : true
+  title : Our Team
+  team_member :
+    # team member loop
+    - name : Tawfiq Nattour
+      #image_webp : images/team/team-1.webp
+      image : images/team/toufek-natour.jpg
+      designation : CEO/Founder
+      content : Show don't tell
+      social :
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/tawfiq-nattour"
+
+        
+    # team member loop
+    - name : Sameeh Jubran
+      #image_webp : images/team/team-2.webp
+      image : images/team/sameeh-jubran.jpg
+      designation : CTO
+      content : Do the work
+      social :
+        - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
+          link : "https://www.linkedin.com/in/sameeh-jubran"

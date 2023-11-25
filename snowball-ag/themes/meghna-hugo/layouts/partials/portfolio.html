@@ -1,0 +1,40 @@
+{{ $data := index site.Data site.Language.Lang }}
+
+{{ if $data.portfolio.portfolio.enable }}
+{{ with $data.portfolio.portfolio }}
+{{"<!-- Portfolio Section -->" | safeHTML}}
+<section class="portfolio section" id="portfolio">
+	<div class="container">
+		<div class="row ">
+			<div class="col-xl-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center">
+					<h2>{{ with .title }} {{ index (split . " ") 0 | safeHTML }} {{ end }}<span class="color">
+						{{ with .title }} {{ after (len (index (split . " ") 0)) . | safeHTML }} {{ end }}</span></h2>
+					<div class="border-meghna"></div>
+				</div>
+				{{"<!-- /section title -->" | safeHTML}}
+			</div>
+		</div>
+
+		<div class="row">
+			{{"<!-- portfolio item -->" | safeHTML}}
+			{{ range .companies }}
+			<div class="col-lg-4 col-md-4 col-sm-6">
+				<div class="portfolio-block">
+					<img class="company-logo" src="{{ .logo | absURL }}" alt="{{ .name }}">
+					<div class="caption">
+						<h4>
+							<a href="{{ .website | safeURL }}">{{ .name }}</a>
+						</h4>
+						<p>{{ .description | markdownify }}</p>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{"<!-- /Portfolio -->" | safeHTML}}
+{{ end }}
+{{ end }}

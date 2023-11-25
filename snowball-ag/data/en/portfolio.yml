@@ -1,0 +1,70 @@
+portfolio:
+  enable : true
+  title : Our Works
+  companies :
+    - name : Logo
+      logo : images/portfolio/logo.png
+      description : Description of Logo
+      website : "https://www.logo.com"
+      
+    - name : Monte Flora
+      logo : images/portfolio/MonteFlora.webp
+      description : Description of Monte Flora
+      website : "https://www.monteflora.com"
+      
+    - name : Nazarene
+      logo : images/portfolio/Nazarene.webp
+      description : Description of Nazarene
+      website : "https://www.nazarene.com"
+      
+    - name : Tokens Farm
+      logo : images/portfolio/TokensFarm.webp
+      description : Description of Tokens Farm
+      website : "https://www.tokensfarm.com"
+      
+    - name : UBSI
+      logo : images/portfolio/UBSI.webp
+      description : Description of UBSI
+      website : "https://www.ubsi.com"
+      
+    - name : Web3 Index
+      logo : images/portfolio/web3index.webp
+      description : Description of Web3 Index
+      website : "https://www.web3index.com"
+      
+    - name : Afifi Group
+      logo : images/portfolio/AfifiGroup.webp
+      description : Description of Afifi Group
+      website : "https://www.afifigroup.com"
+      
+    - name : Chain Port
+      logo : images/portfolio/ChainPort.webp
+      description : Description of Chain Port
+      website : "https://www.chainport.com"
+      
+    - name : Decentralab
+      logo : images/portfolio/Decentralab.webp
+      description : Description of Decentralab
+      website : "https://www.decentralab.com"
+      
+    - name : Fanoos
+      logo : images/portfolio/Fanoos.webp
+      description : Description of Fanoos
+      website : "https://www.fanoos.com"
+      
+    - name : Faraa Mai
+      logo : images/portfolio/FaraaMai.webp
+      description : Description of Faraa Mai
+      website : "https://www.faraamai.com"
+      
+    - name : Heal
+      logo : images/portfolio/Heal.webp
+      description : Description of Heal
+      website : "https://www.heal.com"
+      
+    - name : Hord
+      logo : images/portfolio/Hord.webp
+      description : Description of Hord
+      website : "https://www.hord.com"
+      
+    # Add more companies as needed
