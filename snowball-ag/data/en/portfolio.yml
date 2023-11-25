@@ -1,76 +1,70 @@
-#################################### portfolio ###############################
 portfolio:
   enable : true
   title : Our Works
-  portfolio_item :
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
+  companies :
+    - name : Logo
+      logo : images/portfolio/logo.png
+      description : Description of Logo
+      website : "https://www.logo.com"
       
-    # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : ""
+    - name : Monte Flora
+      logo : images/portfolio/MonteFlora.webp
+      description : Description of Monte Flora
+      website : "https://www.monteflora.com"
       
-    # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Nazarene
+      logo : images/portfolio/Nazarene.webp
+      description : Description of Nazarene
+      website : "https://www.nazarene.com"
       
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Tokens Farm
+      logo : images/portfolio/TokensFarm.webp
+      description : Description of Tokens Farm
+      website : "https://www.tokensfarm.com"
       
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : UBSI
+      logo : images/portfolio/UBSI.webp
+      description : Description of UBSI
+      website : "https://www.ubsi.com"
       
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Web3 Index
+      logo : images/portfolio/web3index.webp
+      description : Description of Web3 Index
+      website : "https://www.web3index.com"
       
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Afifi Group
+      logo : images/portfolio/AfifiGroup.webp
+      description : Description of Afifi Group
+      website : "https://www.afifigroup.com"
       
-    # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Chain Port
+      logo : images/portfolio/ChainPort.webp
+      description : Description of Chain Port
+      website : "https://www.chainport.com"
       
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+    - name : Decentralab
+      logo : images/portfolio/Decentralab.webp
+      description : Description of Decentralab
+      website : "https://www.decentralab.com"
+      
+    - name : Fanoos
+      logo : images/portfolio/Fanoos.webp
+      description : Description of Fanoos
+      website : "https://www.fanoos.com"
+      
+    - name : Faraa Mai
+      logo : images/portfolio/FaraaMai.webp
+      description : Description of Faraa Mai
+      website : "https://www.faraamai.com"
+      
+    - name : Heal
+      logo : images/portfolio/Heal.webp
+      description : Description of Heal
+      website : "https://www.heal.com"
+      
+    - name : Hord
+      logo : images/portfolio/Hord.webp
+      description : Description of Hord
+      website : "https://www.hord.com"
+      
+    # Add more companies as needed
