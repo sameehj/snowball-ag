@@ -5,7 +5,7 @@
   "author": "gethugothemes",
   "scripts": {
     "dev": "hugo server",
-    "deploy": "hugo && gh-pages -d public -r git@github.com:sameehj/snowball-ag.git -b main",
+    "deploy": "hugo && gh-pages -d public -r git@github.com:sameehj/snowball-ag.git -b stable",
     "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --forceSyncStatic",
     "test": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --buildDrafts --buildExpired --buildFuture --watch --forceSyncStatic -e production --minify",
     "dev:example": "cd exampleSite; hugo server --themesDir ../..",
