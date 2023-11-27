@@ -883,12 +883,10 @@ a:hover {
 }
 .portfolio-block {
   position: relative;
-  justify-content: center;
-  align-items: center;
 }
 
 .portfolio-block img {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
@@ -918,8 +916,27 @@ a:hover {
 }
 
 .portfolio-block .company-logo {
+  max-width: 100%; /* This will make the image responsive */
+  height: auto; /* This will maintain the aspect ratio of the image */
   padding: 10px; /* adjust as needed */
   transition: transform 0.3s ease; /* smooth transition */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* adjust as needed */
+  overflow: hidden; /* hide parts of the image that exceed the container size */
+}
+
+.company-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.caption-container {
+  padding: 10px;
 }
 
 /*=================================================================
